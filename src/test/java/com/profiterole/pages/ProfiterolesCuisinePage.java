@@ -6,7 +6,6 @@ import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import java.util.List;
-
 @DefaultUrl("http://gioia-profiterole.rhcloud.com/")
 public class ProfiterolesCuisinePage extends PageObject {
 
@@ -16,10 +15,9 @@ public class ProfiterolesCuisinePage extends PageObject {
 
     public WebElement getCuisine(String cuisine){
         WebElement returnElement = null;
-        for(WebElement element : getAllCuisines()) {
-            if (element.getAttribute("alt").equals(cuisine)){
+        for(WebElement element : getAllCuisines()){
+            if (element.getText().equals(cuisine))
                 returnElement = element;
-            }
         }
         return returnElement;
     }

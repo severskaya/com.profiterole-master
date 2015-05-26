@@ -25,6 +25,8 @@
         <module name="com.profiterole" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com.profiterole" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
-
