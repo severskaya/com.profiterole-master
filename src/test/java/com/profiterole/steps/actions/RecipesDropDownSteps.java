@@ -9,6 +9,7 @@ public class RecipesDropDownSteps extends ScenarioSteps {
 
     private static final String INFORMATION_FROM_ALL_CUISINES_PAGE = "Выберите кухню";
     private static final String INFORMATION_FROM_CREATE_RECIPE_PAGE = "Создать рецепт";
+
     private RecipesDropDownPage recipesDropDownPage;
 
     @Step

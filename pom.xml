@@ -76,6 +76,7 @@
                 <configuration>
                     <systemPropertyVariables>
                         <webdriver.driver>${webdriver.driver}</webdriver.driver>
+                        <webdriver.chrome.driver>${webdriver.chrome.driver}/home/nsieverska/Desktop/chromedriver</webdriver.chrome.driver>
                     </systemPropertyVariables>
                     <includes>
                         <include>**/*AcceptanceTestSuiteRunner.java</include>
