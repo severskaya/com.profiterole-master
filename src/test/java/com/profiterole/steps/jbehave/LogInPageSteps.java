@@ -43,7 +43,7 @@ public class LogInPageSteps {
         logInProfiteroleSteps.clickEnterButtonInEntryWindow();
     }
 
-    @Then("the user should see the page with words 'Wellcome on our site'")
+    @Then("the user should see the page with words 'Welcome on our site'")
     public void thenUserShouldSeeWelcomeOnSitePage(){
         logInProfiteroleSteps.assertThatUserWasLogIn();
     }
