@@ -8,17 +8,9 @@ import org.openqa.selenium.By;
 @DefaultUrl("http://gioia-profiterole.rhcloud.com/")
 public class LogInProfiterolePage extends PageObject{
 
-//    public WebElementFacade getEnterLoginField(){
-//        return find(By.xpath("//*[@id='j_username']"));
-//    }
-
     public WebElementFacade getEnterLoginField(){
         return find(By.id("j_username"));
     }
-
-//    public WebElementFacade getEnterPasswordField(){
-//        return find(By.xpath("//*[@id='j_password']"));
-//    }
 
     public WebElementFacade getEnterPasswordField(){
         return find(By.id("j_password"));

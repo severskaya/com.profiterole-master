@@ -8,22 +8,6 @@ import org.openqa.selenium.support.FindBy;
 
 @DefaultUrl("http://gioia-profiterole.rhcloud.com/")
 public class CreateMenuDropDownPage extends PageObject {
-//
-//    @FindBy(xpath = "//a[contains(text(), 'Меню на день')]")
-//    private WebElementFacade MenuOnADayInDropDownList;
-//
-//    @FindBy(xpath = "//a[contains(text(), 'Меню на неделю')]")
-//    private WebElementFacade MenuOnAWeekInDropDownList;
-//
-//    @FindBy(xpath = "count(//*[@class = 'btn btn-large no-outline'])")
-//    private WebElementFacade CountOfVariablesFromCreateMenuOnDayPage;
-//
-//    @FindBy(xpath = "//*[@class = 'btn btn-large dayOfWeekButton'])")
-//    private WebElementFacade CountOfDaysFromCreateMenuOnWeek;
-//
-//
-//    public void clickMenuOnADayButton(){MenuOnADayInDropDownList.click();}
-
 
     public WebElementFacade getMenuOnADayInDropDownList(){
         return find(By.xpath("//a[contains(text(), 'Меню на день')]"));
