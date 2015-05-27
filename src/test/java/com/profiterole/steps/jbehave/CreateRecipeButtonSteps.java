@@ -31,7 +31,7 @@ public class CreateRecipeButtonSteps {
         recipesDropDownSteps.clickCreateRecipeButton();
     }
 
-    @Then("the user should see the page where he can createhis own recipe")
+    @Then("the user should see the page where he can create his own recipe")
     public void thenShouldSeeCreateRecipePage(){
         recipesDropDownSteps.assertThatCreateRecipePageIsVisible();
     }
