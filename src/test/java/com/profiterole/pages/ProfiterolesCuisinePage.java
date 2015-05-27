@@ -17,6 +17,7 @@ public class ProfiterolesCuisinePage extends PageObject {
         WebElement returnElement = null;
         for(WebElement element : getAllCuisines()){
             if (element.getText().equals(cuisine))
+                this.waitABit(300);
                 returnElement = element;
         }
         return returnElement;
