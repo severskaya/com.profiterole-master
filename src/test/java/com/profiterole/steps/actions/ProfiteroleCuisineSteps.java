@@ -48,5 +48,4 @@ public class ProfiteroleCuisineSteps extends ScenarioSteps {
         assertEquals("Страница 'Закуски Украинской кухни' не прогрузилась", INFORMATION_FROM_UKRAINIAN_SNACKSPAGE,
                 profiterolesCuisinePage.getInformationFromUkrainiansnacksPage().getText());
     }
-
 }

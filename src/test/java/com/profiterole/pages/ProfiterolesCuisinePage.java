@@ -23,7 +23,6 @@ public class ProfiterolesCuisinePage extends PageObject {
         return returnElement;
     }
 
-	//TODO: what if you'll have like 20 counties? or even 40? why can't we use name 'bla-bla кухня' as a parameter?
     public WebElementFacade getInformationFromMexicoDishesPage(){
         return find(By.xpath("//h4[contains(text(), 'Мексиканская кухня')]"));
     }
@@ -39,8 +38,6 @@ public class ProfiterolesCuisinePage extends PageObject {
     public WebElementFacade getSnacksButton(){
         return find(By.xpath("//a[contains(text(), 'Закуски')]"));
     }
-
-	//TODO: 'Молоко' is just content, so it should be a parameter
     public WebElementFacade getInformationFromUkrainiansnacksPage(){
         return find(By.xpath("//div[contains(text(), 'Молоко')]"));
     }

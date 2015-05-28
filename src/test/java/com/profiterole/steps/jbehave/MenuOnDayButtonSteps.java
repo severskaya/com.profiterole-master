@@ -35,5 +35,4 @@ public class MenuOnDayButtonSteps {
     public void thenShouldSeeBreakfastDinnerSupperPage(){
         createMenuDropDownSteps.assertThatCreateMenuOnADayPageIsVisible();
     }
-
 }

@@ -5,14 +5,12 @@ import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 import static org.junit.Assert.*;
 
-
 public class CreateMenuDropDownSteps extends ScenarioSteps {
 
     final static private String INFORMATION_FROM_CREATE_MENU_ON_A_WEEK = "Mo";
     final static private String INFORMATION_FROM_CREATE_MENU_ON_A_DAY = "#supper";
 
     private CreateMenuDropDownPage createMenuDropDownPage;
-
 
     @Step
     public void clickMenuOnADayButton() {

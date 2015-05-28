@@ -5,8 +5,6 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.By;
 
-import java.util.List;
-
 @DefaultUrl("http://gioia-profiterole.rhcloud.com/")
 public class CreateRecipePage extends PageObject {
 

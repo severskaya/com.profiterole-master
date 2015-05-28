@@ -35,5 +35,4 @@ public class PressOnCreateRecipeButtonSteps {
     public void thenShouldSeeCreateRecipePage(){
         recipesDropDownSteps.assertThatCreateRecipePageIsVisible();
     }
-
 }

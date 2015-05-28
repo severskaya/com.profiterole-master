@@ -36,5 +36,4 @@ public class AllRecipesButtonSteps {
     public void thenUserShouldSeeAllCuisines(){
         recipesDropDownSteps.assertThatCuisinesAreVisibleForUser();
     }
-
 }

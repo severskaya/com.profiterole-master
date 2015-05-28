@@ -3,7 +3,6 @@ package com.profiterole.steps.actions;
 import com.profiterole.pages.CreateRecipePage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
-import org.yecht.Data;
 
 import static org.junit.Assert.assertEquals;
 
